@@ -10,21 +10,21 @@
 
 <body>
 
-    <header>
-        <div>
+    <header class="header-profile">
+        <div class="header-texto">
             <img src="img/estrellas-ia.webp" alt="Estrellas IA">
             <h2>
                 Marcelo David
             </h2>
         </div>
 
-        <ul>
-            <li><a href="#sobre-mi">Sobre mi</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#hobbies">Hobbies</a></li>
-            <li><a href="#formacion">Formación</a></li>
-            <li><a href="#proyectos">Proyectos</a></li>
-            <li><a href="#contacto">Contacto@gmail.com</a></li>
+        <ul class="header-list">
+            <li class="header-list-item"><a href="#sobre-mi">Sobre mi</a></li>
+            <li class="header-list-item"><a href="#skills">Skills</a></li>
+            <li class="header-list-item"><a href="#hobbies">Hobbies</a></li>
+            <li class="header-list-item"><a href="#formacion">Formación</a></li>
+            <li class="header-list-item"><a href="#proyectos">Proyectos</a></li>
+            <li class="header-list-item"><a href="mailto:correo@gmail.com">Contacto@gmail.com</a></li>
         </ul>
     </header>
 
@@ -39,11 +39,27 @@
                     Soy formada en lorem ipsum sit amet consectetur y actualmente estoy participando en el proyecto
                     Oracle ONE en Alura Latam.
                 </p>
-                <ul>
-                    <li><a href="#" target="_blank">Github</a></li>
-                    <li><a href="#" target="_blank">Linkedin</a></li>
-                    <li><a href="#" target="_blank">Instragram</a></li>
-                    <li><a href="#" target="_blank">CV</a></li>
+                <ul class="title-network">
+                    <li class="title-network-item">
+                        <a href="#" target="_blank">Github
+                            <img class="title-flecha" src="img/vector.webp" alt="Flecha">
+                        </a>
+                    </li>
+                    <li class="title-network-item">
+                        <a href="#" target="_blank">Linkedin
+                            <img class="title-flecha" src="img/vector.webp" alt="Flecha">
+                        </a>
+                    </li>
+                    <li class="title-network-item">
+                        <a href="#" target="_blank">Instragram
+                            <img class="title-flecha" src="img/vector.webp" alt="Flecha">
+                        </a>
+                    </li>
+                    <li class="title-network-item">
+                        <a href="#" target="_blank">CV
+                            <img class="title-flecha" src="img/vector.webp" alt="Flecha">
+                        </a>
+                    </li>
                 </ul>
             </div>
         </section>
@@ -64,7 +80,7 @@
         </section>
 
         <section class="skills" id="skills">
-            <h3>
+            <h3 class="skills-title">
                 Skills
             </h3>
             <section class="skills-line">
@@ -149,7 +165,7 @@
         </section>
 
         <section class="hobbies" id="hobbies">
-            <h3>
+            <h3 class="hobbies-title">
                 Hobbies
             </h3>
             <section class="hobbies-line">
@@ -289,7 +305,7 @@
             </h3>
             <section class="proyectos-container">
                 <article class="proyectos-box">
-                    <img src="" alt="">
+                    <img src="img/Proyecto-2.webp" alt="Proyecto">
                     <div class="proyectos-textos">
                         <h4 class="proyectos-subtitle">
                             Encriptador de texto
@@ -305,7 +321,7 @@
                 </article>
 
                 <article class="proyectos-box">
-                    <img src="" alt="">
+                    <img src="img/Proyecto-2.webp" alt="Proyecto">
                     <div class="proyectos-textos">
                         <h4 class="proyectos-subtitle">
                             Encriptador de texto
@@ -321,7 +337,7 @@
                 </article>
 
                 <article class="proyectos-box">
-                    <img src="" alt="">
+                    <img src="img/Proyecto-2.webp" alt="Proyecto">
                     <div class="proyectos-textos">
                         <h4 class="proyectos-subtitle">
                             Encriptador de texto
@@ -337,7 +353,7 @@
                 </article>
 
                 <article class="proyectos-box">
-                    <img src="" alt="">
+                    <img src="img/Proyecto-2.webp" alt="Proyecto">
                     <div class="proyectos-textos">
                         <h4 class="proyectos-subtitle">
                             Encriptador de texto
@@ -356,7 +372,7 @@
 
         <section class="contacto" id="contacto">
             <img src="img/contacto.webp" alt="Telefono de contacto">
-            <article class="contacto-box">
+            <article class="contacto-container">
                 <div class="contacto-textos">
                     <h3 class="contacto-title">
                         Contacto
@@ -371,7 +387,7 @@
                     <input type="email" placeholder="Email" required minlength="15" maxlength="40">
                     <input type="text" placeholder="Asunto" required minlength="3" maxlength="40">
                     <textarea name="" placeholder="Mensaje" id="" cols="30" rows="10"></textarea>
-                    <input type="submit" value="Enviar">
+                    <input class="contacto-boton" type="submit" value="Enviar mensaje">
                 </form>
             </article>
         </section>
